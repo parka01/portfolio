@@ -1,0 +1,71 @@
+
+body {
+    margin:0;
+    text-align: center;
+}
+
+.bottom-container {
+    background-color: #b1bed5;
+    color: #f6e7e6;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.contact-me {
+    color: #f6e7e6
+    }
+
+h1 {  
+   color:  #f6e5f5;
+   margin-top: 0;
+   font-family: 'sacramento', serif;
+}
+h2 {  
+    color:  #f6e7e6;
+    margin-top: 0;
+    font-family: 'sacramento', serif;
+ }
+
+.middle-container {
+    background-color: #b1bed5;
+    color: #f6e5f5;
+} 
+
+p {
+    color:  #f6e5f5;
+    font-family: 'Verdana', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.profile {
+    position: relativ;
+    margin-bottom: 50px;
+    padding-top: 200px;
+ }
+
+.skill-row {
+    background-color: #b1bed5;
+}
+
+.top-cloud {
+    position: absolute; 
+    right: 300px;
+    top: 50px;    
+}
+
+.top-container {
+    background-color: #b1bed5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.works {
+    background-color: #b1bed5;
+    text-align: initial;
+    position: relative;
+}
