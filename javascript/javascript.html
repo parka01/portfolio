@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>💖안드로이드 앱 포트폴리오💖</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/../css/styles.css">
+  <link rel="icon" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+</head>
+<body>
+
+<div class="top-container">
+  <h2>자바스크립트 포트폴리오 목록입니다.</h2>
+  <p>기능별로 정리를 해보았습니다. 각 버튼을 눌러확인하세요.</p>
+  <br>
+  <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> 그래디언트배경 생성기</a>
+  <br><br>
+<!--   
+  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+    나의 건강 체크하기 앱
+  </button> -->
+  <br><br>
+
+
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <div class="modal-header">
+          <h4 class="modal-title text-secondary">인텐트 구현 포트폴리오</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+  
+        <div class="gradientbody" id="gradient">
+          <div class="top-container">
+            <h1 id="gradienth1">Gradient generator Ver.10</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          <input class="color1" type="color" name="color1" value="#42FFAD">
+          <input class="color2" type="color" name="color2" value="#b400f5">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 gradient="2">Current CSS Background</h2>
+            <h3></h3>
+            
+          <script type="text/javascript" src="app.js"></script>
+          </div>
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">나가기</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+<script>
+  function myFunction() {
+    document.getElementById("gradient").style.display = "none";
+  }
+  </script>
+</body>
+</html>
