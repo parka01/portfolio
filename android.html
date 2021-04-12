@@ -1,32 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>💖안드로이드 앱 포트폴리오💖</title>
-    <link rel="stylesheet"  href="css/styles.css">
-    <link rel="icon" href="favicon.png">
+  <title>💖안드로이드 앱 포트폴리오💖</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet"  href="css/styles.css">
+  <link rel="icon" href="favicon.png">
 </head>
 <body>
-    <div class="top-container">
-        <h2>Kotlin으로 만든 안드로이드앱입니다.</h2>
+
+<div class="top-container">
+  <h2>Kotlin으로 만든 안드로이드앱입니다.</h2>
+  <p>기능별로 정리를 해보았습니다. 각 버튼을 눌러확인하세요.</p>
+  <br>
+  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+    인텐트기능 앱
+  </button>
+  <br><br>
+  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+    브로드캐스트리시버 앱
+  </button>
+  <br><br>
+  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+    나의 건강 체크하기 앱
+  </button>
+  <br><br>
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <div class="modal-header">
+          <h4 class="modal-title text-secondary">인텐트 구현 포트폴리오</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+  
+        <div class="modal-body">
+          <div class="top-container">
+        <h2>Intent기능으로 만든 안드로이드앱입니다.</h2>
         <br><br>
         <br><br>
         <br><br>
         <p><기본 인텐트 + 라디오버튼 기능></p>
         <br>
-        <img src="images/travel1.gif" alt="travelgif">
+        <img class="img-fluid" src="images/travel1.gif" alt="travelgif">
         <br><br>
         <br><br>
         <br><br>
         <p><버튼을 ScrollView에 추가></p>
         <br>
-        <img src="images/travel2.gif" alt="travelgif">
+        <img class="img-fluid" src="images/travel2.gif" alt="travelgif">
         <br><br>
         <br><br>
         <br><br>
         <p><액티비티를 추가></p>
         <br>
-        <img src="images/travel3.gif" alt="travelgif">
+        <img class="img-fluid" src="images/travel3.gif" alt="travelgif">
         <br><br>
         <br><br>
         <br><br>
@@ -34,5 +67,17 @@
         <br><br>
         <br><br>
     </div>
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">나가기</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
 </body>
 </html>
