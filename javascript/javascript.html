@@ -36,12 +36,9 @@
       최고의 한쌍
     </button> 
     <br><br>
-    <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> 함수 기능연습</a>
-    <br><br>
-    
-    <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> 예상 수명계산기</a>
-    <br><br>
-    <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> Math.random()활용</a>
+    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModalLeapYear">
+      Leap Year
+    </button> 
     <br><br>
   </div>
   
@@ -179,6 +176,34 @@
           <img class="img-fluid" src="../images/match3.png">
           <p>3. AI계산 결과 저와 솜의 케미는 82%로 퍼펙트매치의 결과가 나온 모습입니다.</p>
           <img class="img-fluid" src="../images/match4.png">
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">나가기</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Leap Year -->
+  <div class="modal fade" id="myModalLeapYear">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <div class="modal-header  text-center">
+          <h4 class="modal-title text-secondary w-100">Leap Year</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+  
+        <div class="modal-body top-container">
+          <p>If else문을 이용하여 윤년(4년마다 돌아오는 2월이 29일을 가지는 해)를 찾는 구문입니다.</p>
+          <img class="img-fluid" src="../images/leapyear1.png">
+          <p>1. 테스트를 위해 윤년이 포함되었는지 알고싶은 해를 입력합니다.</p>
+          <img class="img-fluid" src="../images/leapyear2.png">
+          <p>2. 2020년은 윤년으로 2021년은 아닌것으로 판정된 결과가 출력된 모습입니다.</p>
+          <img class="img-fluid" src="../images/leapyear3.png">
         </div>
         
         <div class="modal-footer">
