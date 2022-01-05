@@ -24,13 +24,17 @@
       그래디언트 배경 생성기
     </button> 
     <br><br>
-   
-    <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> BMI계산기</a>
+    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModalBMI">
+      BMI계산기
+    </button> 
+    <br><br>
+    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModalTwitter">
+      Twitter회사의 핵심 기능
+    </button> 
     <br><br>
     <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> 함수 기능연습</a>
     <br><br>
-    <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> 트위터 기능</a>
-    <br><br>
+    
     <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> 예상 수명계산기</a>
     <br><br>
     <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> Math.random()활용</a>
@@ -88,6 +92,71 @@
       </div>
     </div>
   </div>
+
+
+
+
+
+  <div class="modal fade" id="myModalBMI">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <div class="modal-header  text-center">
+          <h4 class="modal-title text-secondary w-100">BMI계산기</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+  
+        <div class="modal-body top-container">
+          <p>기존 자바스크립트 문법을 이용한 계산기</p>
+          <img class="img-fluid" src="../images/bmi.png">
+          <br><br><br><br>
+          <p>함수화를 적용한 BMI계산기</p>
+          <img class="img-fluid" src="../images/bmi2.png">
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">나가기</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="myModalTwitter">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <div class="modal-header  text-center">
+          <h4 class="modal-title text-secondary w-100">트위터 기능</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+  
+        <div class="modal-body top-container">
+          <p>Twitter회사에서 사용하는 글자수140자 제한하는 핵심 기능을 구현해보았습니다.</p>
+          <img class="img-fluid" src="../images/twitter1.png">
+          <p>1. 테스트를 위해 Lorem ipsum문구를 프롬트창에 입력해보겠습니다.</p>
+          <img class="img-fluid" src="../images/twitter2.png">
+          <p>2. 글자수가 제한되지 않았을때 전체 글자수를 alert창에 띄운모습입니다.</p>
+          <img class="img-fluid" src="../images/twitter3.png">
+          <p>3. limitTweet 변수에 slice()기능을 적용하여 140자로 제한된 문구가 alert창에 출력된 모습입니다.</p>
+          <img class="img-fluid" src="../images/twitter4.png">
+          <p>4. 이 모든 과정을 한줄에 요약하였을때도 위와 같은 결과물을 출력하는 연습을 해보았습니다.</p>
+          <img class="img-fluid" src="../images/twitter5.png">
+          <br><br><br>
+          <img class="img-fluid" src="../images/twitter6.png">
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">나가기</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
   
 </div>
 <script>
