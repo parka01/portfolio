@@ -1,71 +1,98 @@
-
 body {
-    margin:0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 .bottom-container {
-    background-color: #b1bed5;
-    color: #f6e7e6;
+  background-color: #b1bed5;
+  color: #f6e7e6;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
 
 .contact-me {
-    color: #f6e7e6
-    }
-
-h1 {  
-   color:  #f6e5f5;
-   margin-top: 0;
-   font-family: 'sacramento', serif;
+  color: #f6e7e6;
 }
-h2 {  
-    color:  #f6e7e6;
-    margin-top: 0;
-    font-family: 'sacramento', serif;
- }
+
+h1 {
+  color: #f6e5f5;
+  margin-top: 0;
+  font-family: "sacramento", serif;
+}
+h2 {
+  color: #f6e7e6;
+  margin-top: 0;
+  font-family: "sacramento", serif;
+}
 
 .middle-container {
-    background-color: #b1bed5;
-    color: #f6e5f5;
-} 
+  background-color: #b1bed5;
+  color: #f6e5f5;
+}
 
 p {
-    color:  #f6e5f5;
-    font-family: 'Verdana', sans-serif;
-    width: 60%;
-    margin: 0 auto;
+  color: #f6e5f5;
+  font-family: "Verdana", sans-serif;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .profile {
-    position: relativ;
-    margin-bottom: 50px;
-    padding-top: 200px;
- }
+  position: relativ;
+  margin-bottom: 50px;
+  padding-top: 200px;
+}
 
 .skill-row {
-    background-color: #b1bed5;
+  background-color: #b1bed5;
 }
 
 .top-cloud {
-    position: absolute; 
-    right: 300px;
-    top: 50px;    
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
 
 .top-container {
-    background-color: #b1bed5;
-    position: relative;
-    padding-top: 100px;
+  background-color: #b1bed5;
+  position: relative;
+  padding-top: 100px;
 }
 
 .works {
-    background-color: #b1bed5;
-    text-align: initial;
-    position: relative;
+  background-color: #b1bed5;
+  text-align: initial;
+  position: relative;
+}
+
+/* gradient css */
+.gradientbody {
+  font-family: "Indie Flower", cursive;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, #42ffad, #b400f5); /* Standard syntax */
+}
+
+#gradient > h1 {
+  font: 600 3.5em "Lobster", cursive;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+
+#gradient > h3 {
+  font-family: 900 1em "Indie Flower", cursive;
+  color: #ffffff;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
 }

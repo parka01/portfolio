@@ -20,6 +20,11 @@
     <h2>자바스크립트 포트폴리오 목록입니다.</h2>
     <p>기능별로 정리를 해보았습니다. 각 버튼을 눌러확인하세요.</p>
     <br>
+    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+      그래디언트 배경 생성기
+    </button> 
+    <br><br>
+   
     <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> BMI계산기</a>
     <br><br>
     <a href="gradient/index.html" class="btn btn-secondary" role="button" aria-disabled="true"> 함수 기능연습</a>
@@ -33,25 +38,24 @@
   </div>
   
 
-<!--   
-  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
-    나의 건강 체크하기 앱
-  </button> -->
-  <br><br>
+
+  
 
 
   <div class="modal fade" id="myModal">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
       
-        <div class="modal-header">
-          <h4 class="modal-title text-secondary">인텐트 구현 포트폴리오</h4>
+        <div class="modal-header  text-center">
+          <h4 class="modal-title text-secondary w-100">그래디언트 배경 생성기</h4>
           <button type="button" class="close" data-dismiss="modal">×</button>
         </div>
   
-        <div class="gradientbody" id="gradient">
-          <div class="top-container">
-            <h1 id="gradienth1">Gradient generator Ver.10</h1>
+        <div class="">
+          <div class="gradientbody" id="gradient">
+            <h1>Gradient generator Ver.10</h1>
+
+            <p class="modal-title text-white">아래 네모칸의 색상을 바꿔보세요.</p>
             <br>
             <br>
             <br>
@@ -69,12 +73,10 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <h2 gradient="2">Current CSS Background</h2>
+            <h2>Current CSS Background</h2>
             <h3></h3>
-            
-          <script type="text/javascript" src="app.js"></script>
+            <script type="text/javascript" src="gradient/app.js"></script>
+          
           </div>
         </div>
         
@@ -82,6 +84,7 @@
           <button type="button" class="btn btn-secondary" data-dismiss="modal">나가기</button>
         </div>
         
+
       </div>
     </div>
   </div>
