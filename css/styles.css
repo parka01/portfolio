@@ -82,7 +82,7 @@ p {
 }
 
 #gradient > h1 {
-  font: 600 3.5em "Lobster", cursive;
+  font-family: "Lobster", cursive;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
